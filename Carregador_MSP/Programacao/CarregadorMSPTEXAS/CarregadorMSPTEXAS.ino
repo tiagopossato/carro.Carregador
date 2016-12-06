@@ -166,6 +166,10 @@ void loop() {
     Serial.println(" A");
     Serial.println(msg);
   }
+  Serial.print(tensao);
+  Serial.print("\t");
+  Serial.println(corrente);
+
 #endif
 }
 
